@@ -1,0 +1,25 @@
+easy_admin:
+    entities:
+        Product:
+            class: App\Entity\Product
+            label: 'Produit'
+            list:
+            title: "Liste des Utilisateurs"
+            fields: ['id','Name', 'Quantity', 'Price']
+            sort: 'id'
+            show:
+                title: '%%entity_label%% (#%%entity_id%%)'
+            edit:
+                permission: ''
+                sort: 'id'
+            new:
+                permission: ''
+                sort: 'id'
+
+
+
+
+
+
+
+
